@@ -119,7 +119,7 @@
 					<div class="title title__fz36 about__subtitle">Меня зовут Юрий</div>
 					<div class="divider"></div>
 					<p class="about__text">Я реализовал несколько интересных проектов включая и этот сайт. На этом сайте
-						применены элементы написанные JS так и jquery, сборка сайтов происходила с помощью
+						применены элементы написанные нативном js и jquery, сборка сайтов происходила с помощью
 						такс-менеджера GULP, в работе использовал препроцессор scss. Отправка
 						обратной связи производилась при помощи библиотеки отправки почты phpmailer. Старался по
 						максимуму соблюдать Методологию БЭМ.
@@ -226,7 +226,7 @@
 									<div class="resume__item-icon"><img src="icons/experience/designer.svg"
 											alt="university"></div>
 									<h4 class="title title-fz14">UI/UX Designer</h4>
-									<div class="resume__item-location">Squad Team | Санкт-Петербург (2021)</div>
+									<div class="resume__item-location">Squad Team | Санкт-Петербург (2022)</div>
 								</div>
 								<p class="resume__item-body">В начале пути...
 								</p>
@@ -262,10 +262,10 @@
 						окна, подсказки, вкладки, получение данных от сервера и многое другое</p>
 				</div>
 				<div class="mastery__item">
-					<div class="mastery__img"><img src="icons/skills/jquery.svg" alt="jquery"></div>
-					<div class=" title title-fz14 mastery__item-title">Jquery</div>
-					<p class="mastery__descr">Библиотека Jquery позволит ускорить разработку. Без необходимости
-						интегрировать в Проект мы её не будем, но навык работы с ней присутствует</p>
+					<div class="mastery__img"><img src="img/react.png" alt="PerfectPixel"></div>
+					<div class=" title title-fz14 mastery__item-title">React</div>
+					<p class="mastery__descr">библиотека JavaScript с открытым кодом для создания внешних
+						пользовательских интерфейсов</p>
 				</div>
 				<div class="mastery__item">
 					<div class="mastery__img"><img src="icons/skills/bem.svg" alt="bem"></div>
@@ -308,6 +308,18 @@
 					<div class=" title title-fz14 mastery__item-title">PerfectPixel</div>
 					<p class="mastery__descr">Cтандарт, согласно которому сверстанный блок или страница должен в
 						точности отвечать макету дизайна, вплоть до пикселя</p>
+				</div>
+				<div class="mastery__item">
+					<div class="mastery__img"><img src="img/webpack.png" alt="PerfectPixel"></div>
+					<div class=" title title-fz14 mastery__item-title">PerfectPixel</div>
+					<p class="mastery__descr">сборщик модулей JavaScript с открытым исходным кодом</p>
+				</div>
+
+				<div class="mastery__item">
+					<div class="mastery__img"><img src="icons/skills/jquery.svg" alt="jquery"></div>
+					<div class=" title title-fz14 mastery__item-title">Jquery</div>
+					<p class="mastery__descr">Библиотека Jquery позволит ускорить разработку. Без необходимости
+						интегрировать в Проект мы её не будем, но навык работы с ней присутствует</p>
 				</div>
 			</div>
 			<div class="mastery__ratings">
@@ -373,27 +385,52 @@
 							github</span></a>
 				</div>
 
-				<div class="portfolio__item"><a href="#" class="portfolio__item"><img class="portfolio__item-img"
-							src="img/works/main_bg-min.jpg" alt="test"></a>
+
+				<div class="portfolio__item">
+					<a href="https://portfolio-project-iota-snowy.vercel.app/" class="portfolio__item">
+						<img class="portfolio__item-img" src="img/works/main_bg-min.jpg" alt="test"></a>
 					<a href="https://github.com/YKant-portfolio/portfolio" class="portfolio__item-hidden"
 						target="_blank">Проект-Landing
 						Page портфолио применял CSS Grid <br><span class="portfolio__item-animated">go to
-							github</span></a>
+							github</span>
+					</a>
 				</div>
 
-				<div class="portfolio__item vertical"><a href="#portfolio"><img class="portfolio__item-img"
-							src="img/works/plans.jpg" alt="expected"></a>
-					<a href="#portfolio" class="portfolio__item-hidden">Проект находится на этапе верстки </a>
+
+				<div class="portfolio__item vertical">
+					<a target="_blank" href="https://art-project-nu.vercel.app/">
+						<img class="portfolio__item-img" src="img/works/atr.png" alt="art project">
+					</a>
+					<a target="_blank" href="https://github.com/YKant-portfolio/Art" class="portfolio__item-hidden">В
+						пректе были
+						выполненны задачи исключительно с нативным JS <br><span class="portfolio__item-animated">go to
+							github</span>
+					</a>
 				</div>
 
-				<div class="portfolio__item"><a href="#portfolio"><img class="portfolio__item-img"
-							src="img/works/ipad.jpg" alt="expected"></a><a href="#portfolio"
-						class="portfolio__item-hidden">ожидаю макет для верстки </a></div>
 
-				<div class="portfolio__item horizontal"><a href="#portfolio"><img class="portfolio__item-img"
-							src="img/works/mac.jpg" alt="expected"></a><a href="#portfolio"
-						class="portfolio__item-hidden">Проект в очереди на
-						создание </a>
+				<div class="portfolio__item">
+					<a target="_blank" href="https://to-do-list-tau-dun.vercel.app/">
+						<img class="portfolio__item-img" src="img/works/todo.png" alt="expected">
+					</a>
+					<a target="_blank" href="https://github.com/YKant-portfolio/ToDo_list"
+						class="portfolio__item-hidden">Проект todo
+						list c осуществлением запросов на
+						jsonplaceholder <br><span class="portfolio__item-animated">go to
+							github</span>
+					</a>
+				</div>
+
+
+				<div class="portfolio__item horizontal">
+					<a target="_blank" href="https://react-training-project.vercel.app/">
+						<img class="portfolio__item-img" src="img/works/react_todo.png" alt="expected">
+					</a>
+					<a href="https://github.com/YKant-portfolio/react_training_project"
+						class="portfolio__item-hidden">Todo List на React <br><span class="portfolio__item-animated">go
+							to
+							github</span>
+					</a>
 				</div>
 			</div>
 		</div>
