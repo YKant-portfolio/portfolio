@@ -20,23 +20,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-dist/mailer/smart.php
-dist/mailer/phpmailer/class.phpmailer.php
-dist/mailer/phpmailer/class.phpmaileroauth.php
-dist/mailer/phpmailer/class.phpmaileroauthgoogle.php
-dist/mailer/phpmailer/class.pop3.php
-dist/mailer/phpmailer/class.smtp.php
-dist/mailer/phpmailer/get_oauth_token.php
-dist/mailer/phpmailer/PHPMailerAutoload.php
-dist/mailer/phpmailer/README.md
-dist/mailer/phpmailer/travis.phpunit.xml.dist
-src/mailer/smart.php
-src/mailer/phpmailer/class.phpmailer.php
-src/mailer/phpmailer/class.phpmaileroauth.php
-src/mailer/phpmailer/class.phpmaileroauthgoogle.php
-src/mailer/phpmailer/class.pop3.php
-src/mailer/phpmailer/class.smtp.php
-src/mailer/phpmailer/get_oauth_token.php
-src/mailer/phpmailer/PHPMailerAutoload.php
-src/mailer/phpmailer/README.md
-src/mailer/phpmailer/travis.phpunit.xml.dist
+

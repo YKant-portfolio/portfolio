@@ -31,7 +31,6 @@ document.querySelector('.next').addEventListener('click', function () {
 });
 
 
-
 // меню
 
 const hamburger = document.querySelector('.hamburger'),
